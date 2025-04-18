@@ -10,6 +10,9 @@
       android:allowBackup="false"
       android:theme="@style/AppTheme"
       android:supportsRtl="true">
+      <meta-data
+         android:name="com.tencent.map.geolocation.API_KEY"
+         android:value="CQLBZ-XO7WQ-GLM55-4XY4K-E46SH-6VBPX" />
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
@@ -21,6 +24,7 @@
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+
       </activity>
     </application>
 </manifest>
